@@ -28,6 +28,11 @@
 
 
     ],
+    'assets': {
+        'web.assets_backend': [
+            'skab_custommodule/static/src/js/calendar_filter_override.js',
+        ],
+    },
     # only loaded in demonstration mode
     'demo': [
 #        'demo/demo.xml',
