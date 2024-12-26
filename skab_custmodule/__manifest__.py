@@ -17,12 +17,11 @@
     'version': '1.0',
     
     # any module necessary for this one to work correctly
-    'depends': ['base','calendar'],
+    'depends': ['base','calendar','appointment'],
 
     # always loaded
     'data': [
 	'security/ir.model.access.csv',
-        'security/group.xml',
 	
 ],
  'assets': {
