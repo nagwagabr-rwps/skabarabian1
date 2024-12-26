@@ -23,15 +23,15 @@
     # always loaded
     'data': [
 
-#        'security/skab_security_rwpst.xml',
+        'security/group.xml',
 #        'security/ir.model.access.csv'
 
 
     ],
-    'assets': {
-        'web.assets_backend': [
-            'skab_custmodule/static/src/js/calendar_filter_override.js',
-        ],
+   # 'assets': {
+    #    'web.assets_backend': [
+     #       'skab_custmodule/static/src/js/calendar_filter_override.js',
+      #  ],
     },
     # only loaded in demonstration mode
     'demo': [
