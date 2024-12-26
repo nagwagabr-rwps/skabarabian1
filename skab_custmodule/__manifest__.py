@@ -2,13 +2,12 @@
 {
     'name': "Skab.custmodule",
     
-    'summary': " انشاء مجموعات خاصة لشركات المقاولات وتخصيص صلاحيات مرتبطة بطبيعة هذا النشاط",
+    'summary': "انشاء مجموعات خاصة لشركات المقاولات وتخصيص صلاحيات مرتبطة بطبيعة هذا النشاط",
     
-    'description': 
-    """
-
-انشاء مجموعات خاصة لشركات المقاولات وتخصيص صلاحيات مرتبطة بطبيعة هذا النشاط
-    """,
+    'description':
+"""ا
+نشاء مجموعات خاصة لشركات المقاولات وتخصيص صلاحيات مرتبطة بطبيعة هذا النشاط
+ """,
     
     'author': "Real World Problem Solution Techniques (RWPST)",
     'website': "https://ads.rwpst.online/",
@@ -22,24 +21,18 @@
 
     # always loaded
     'data': [
-
+	'security/ir.model.access.csv',
         'security/group.xml',
-#        'security/ir.model.access.csv'
-
-
+	
+],
+ 'assets': {
+    'web.assets_backend': [
+       'skab_custmodule/static/src/js/calendar_filter_override.js',
     ],
-   # 'assets': {
-    #    'web.assets_backend': [
-     #       'skab_custmodule/static/src/js/calendar_filter_override.js',
-      #  ],
-#    },
+    },
     # only loaded in demonstration mode
     'demo': [
 #        'demo/demo.xml',
     ],
     
-    'installable': True,
-    'application': True,
-    'auto_install': False,
-    'license': 'LGPL-3',
-}
+    'installable': True,'application': True,'auto_install': False,'license': 'LGPL-3',}
