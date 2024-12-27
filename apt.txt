@@ -1,1 +1,3 @@
 ttf-mscorefonts-installer
+fonts-dejavu
+fonts-liberation
