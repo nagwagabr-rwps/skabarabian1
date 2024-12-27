@@ -1,3 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_skab_custmodule_manager,skab_custmodule.skab_custmodule,model_skab_custmodule_skab_custmodule,appointment.group_appointment_manager,1,1,1,1
-access_skab_custmodule_user,skab_custmodule.skab_custmodule,model_skab_custmodule_skab_custmodule,appointment.group_appointment_user,1,1,0,0
+access_calendar_event_manager,calendar.event.manager,calendar.model_calendar_event,appointment.group_appointment_manager,1,1,1,1
+access_calendar_event_user,calendar.event.user,calendar.model_calendar_event,appointment.group_appointment_user,1,0,0,0
